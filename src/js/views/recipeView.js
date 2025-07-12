@@ -51,10 +51,10 @@ class RecipeView extends View {
           <span class="recipe__info-text">servings</span>
 
           <div class="recipe__info-buttons">
-            <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings - 1}">
+            <button  data-update-to="${this._data.servings - 1}">
              <span class="recipe__info-text">(DEC-)</span>
             </button>
-            <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings + 1}">
+            <button data-update-to="${this._data.servings + 1}">
               <span class="recipe__info-text">(INC+)</span>
             </button>
           </div>
