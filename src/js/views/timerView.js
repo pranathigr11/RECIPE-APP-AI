@@ -61,7 +61,7 @@ class TimerView extends View {
       <li class="timer-item ${remaining <= 0 ? 'timer-item--done' : ''}" data-id="${timer.id}">
         <span class="timer-item__label">${timer.label}</span>
         <strong class="timer-item__time">${remaining <= 0 ? 'Done!' : formatTime(remaining)}</strong>
-        <button class="btn--tiny timer__btn--remove" data-id="${timer.id}">
+        <button class=" timer__btn--remove" data-id="${timer.id}">
          <span class="recipe__info-text">DELETE</span>
         </button>
       </li>
